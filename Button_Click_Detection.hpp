@@ -1,4 +1,4 @@
-void check_for_button_click(int io) {
+bool check_for_button_click(int io) {
     if (digitalRead(io) == LOW) {
         return true;
     }
